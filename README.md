@@ -1,3 +1,3 @@
 # JavaCoding - Question wise Answers list
 
-https://docs.google.com/document/d/11zC55bJ-t6wCB0Oz6QmznHveXfLkPgM-YpDYwzMFl_o/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1ZZJoZXgWShSnetnEd3eEVBCwH5MD0xiGOdujRftWdwY/edit?usp=sharing
