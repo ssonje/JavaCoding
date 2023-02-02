@@ -5,7 +5,7 @@ public class SwapTwoNumbers {
     private static void swapNumbers(int a, int b) {
         System.out.println("Before swapping a = " + a + " and b = " + b);
 
-        // swap two numbers
+        // Swap two numbers
         int temp = a;
         a = b;
         b = temp;
@@ -16,7 +16,7 @@ public class SwapTwoNumbers {
     private static void swapNumbersWithoutUsingThirdVariable(int a, int b) {
         System.out.println("Before swapping a = " + a + " and b = " + b);
 
-        // swap two numbers
+        // Swap two numbers
         a = a + b;
         b = a - b;
         a = a - b;
@@ -31,11 +31,11 @@ public class SwapTwoNumbers {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
-        // swap numbers using traditional way (third variable)
+        // Swap numbers using traditional way (third variable)
         System.out.println("Swapping two numbers using third variable - ");
         swapNumbers(a, b);
 
-        // swap numbers without using third variable
+        // Swap numbers without using third variable
         System.out.println("Swapping two numbers without using third variable - ");
         swapNumbersWithoutUsingThirdVariable(a, b);
     }
