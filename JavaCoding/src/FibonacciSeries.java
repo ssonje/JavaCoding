@@ -20,6 +20,7 @@ public class FibonacciSeries {
         System.out.print("Enter Number -> ");
         int number = scanner.nextInt();
 
+        // Print fibonacci sequence
         System.out.println("Fibonacci Sequence till `" + number + "` is as follows - ");
         for (int i=0; i<=number; i++) {
             System.out.print(getFibSum(i) + ", ");
