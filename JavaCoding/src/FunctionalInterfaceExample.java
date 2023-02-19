@@ -17,4 +17,3 @@ public class FunctionalInterfaceExample implements FunctionalInterfaceInterface 
         object.sampleMethod();
     }
 }
-
