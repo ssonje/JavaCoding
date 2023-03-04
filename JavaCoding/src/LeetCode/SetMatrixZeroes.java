@@ -2,15 +2,15 @@ package LeetCode;
 
 public class SetMatrixZeroes {
 
-    private static void fillRowWithZeroes(int[][] arr, int row) {
-        for (int i=0; i<arr[row].length; i++) {
-            arr[row][i] = 0;
+    private static void fillRowWithZeroes(int[][] arr, int col) {
+        for (int i=0; i<arr.length; i++) {
+            arr[i][col] = 0;
         }
     }
 
-    private static void fillColWithZeroes(int[][] arr, int col) {
-        for (int i=0; i<arr.length; i++) {
-            arr[i][col] = 0;
+    private static void fillColWithZeroes(int[][] arr, int row) {
+        for (int i=0; i<arr[row].length; i++) {
+            arr[row][i] = 0;
         }
     }
 
